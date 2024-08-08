@@ -20,6 +20,8 @@ Vite is also a liberiry like other liberiry .
 
 To make Vite file we use this (npm create vite@latest)
 
+
+;; Highligts about 1st lecture 
 First lecture we learn here is  {
     Make basic react 
     how to create project 
@@ -27,9 +29,6 @@ First lecture we learn here is  {
     how to make folder with react liberiry in vs terminal.
     how to make folder with Vite liberiry in vs terminal.
     how to run those file 
-    so onn.
-    
-
 }
 
 
