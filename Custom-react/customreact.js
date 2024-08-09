@@ -1,4 +1,4 @@
-// ===========  Here we make own react element( 1) =====
+// ===========  Here we make own react element (.1) =====
 
 function customRendor(reactElement, container){
 
