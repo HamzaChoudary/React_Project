@@ -227,6 +227,27 @@ function App() {
 export default App
 
 
+;; ****************** In this lecture we learn about Virtual Dom & React fiber *******************
 
+;;  This lectrue important for interview,
+
+We learn about in this lecture {reconciliation, Virtual Dom, latest approch about Fiber,}
+
+
+if we wana see the React Fiber then we need to go this below link [
+ ;; https://github.com/acdlite/react-fiber-architecture
+]
+
+;; reconciliation
+The algorithm React uses to diff one tree with another to determine which parts need to be changed. ;; [Here is the two trees is One of them Browers tree and second Reac tree Which come from createroot element].
+
+
+;; The keys points are:
+In a UI, it's not necessary for every update to be applied immediately; in fact, doing so can be wasteful, causing frames to drop and degrading the user experience.
+Different types of updates have different priorities — an animation update needs to complete more quickly than, say, an update from a data store.
+A push-based approach requires the app (you, the programmer) to decide how to schedule work. A pull-based approach allows the framework (React) to be smart and make those decisions for you.
+
+;; What is a fiber?
+We're about to discuss the heart of React Fiber's architecture. Fibers are a much lower-level abstraction than application developers typically think about. If you find yourself frustrated in your attempts to understand it, don't feel discouraged. Keep trying and it will eventually make sense. (When you do finally get it, please suggest how to improve this section.)
 
 
