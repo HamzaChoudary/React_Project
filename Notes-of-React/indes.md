@@ -250,4 +250,22 @@ A push-based approach requires the app (you, the programmer) to decide how to sc
 ;; What is a fiber?
 We're about to discuss the heart of React Fiber's architecture. Fibers are a much lower-level abstraction than application developers typically think about. If you find yourself frustrated in your attempts to understand it, don't feel discouraged. Keep trying and it will eventually make sense. (When you do finally get it, please suggest how to improve this section.)
 
+;; ****************** Tailwind and props in reactjs ************
+
+;; we learn here
+ Tailwind , components and get components card, pass value in components default values.
+ If you want to more details about this lecture then go to 
+;;  {0tailwindprops folder} 
+
+and read more about there.
+
+;; ********* Now we learn about interview question on counter *********
+
+
+
+;;  *************** Foundation is complete almost ⬆ **************
+
+;; Now we start the Projects
+
+
 
