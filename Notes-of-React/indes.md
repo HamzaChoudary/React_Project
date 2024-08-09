@@ -165,6 +165,66 @@ const mainContainer = document.querySelector('#root')
 customRendor(reactElement, mainContainer)
 
 
+;; ********************* React hooks and  Project *******************8
+ 
+ In this lecture we learn about hooks and Project 
+ Make  a project that is how to add value and remove value
+ by button element and using onclick method .
+ after that we done the assignment which is about value stop when they equal to 20 and stop when equal to 0.
+ this is helpfull for us . 
+ The code is below. or  you can see the code in 02vitereact folder/ App.jsx file.
+
+
+ This is the code.....
+
+;; The useState is called the hooks there is many kind of hooks like setcounter,  setmemo, like this.
+ import { useState } from 'react'
+
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  ;;  here is also use hooks {setCounter}
+  let [counter, setCounter] = useState(15)
+
+
+  // let counter = 15;
+
+   const addValue = () => {
+      // counter = counter + 1;
+      setCounter(counter + 1)
+      // this if statement we create as a assignment
+      if (counter === 20) {
+        setCounter(counter => 15)
+      }
+  }
+
+
+  const remoevalue = () => {
+    setCounter(counter - 1)
+    // this if statement we create as a assignment 
+    if (counter === 0) {
+      setCounter(counter => 15)
+    }
+  }
+ 
+
+  return (
+    <>
+      <h1>Hamza Choudary</h1>
+      <h3>Vite value: {counter}</h3>
+
+
+      <button onClick={addValue}>Add Value {counter}</button>
+       <br />
+      <button onClick={remoevalue}>Remove Value {counter}</button>
+      <p>footer {counter}</p>
+    </>
+  )
+}
+
+export default App
 
 
 
