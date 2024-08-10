@@ -273,4 +273,30 @@ and read more about there.
 When we click on the color button then background color change 
 that put on the button.
 
+;; ******************* 05 Password Generator ************
+
+The hooks we use here UseEffect, useRef, useCallback.
+
+In this lecture we are done here password generator program with react (vite) 
+we add in it range of length, numbers , Character.
+
+;; ******************* 06 Custom hooks in react **********8
+;; (Currency converter)
+
+which task we done in project
+
+learn custom hooks
+how to call api 
+how to setup project,
+how to creating components.
+how to approach for exporting components.
+useId hook.
+state setup
+working on functionality
+debugging
+checking functionality
+and in last assignment.
+
+
+
 
