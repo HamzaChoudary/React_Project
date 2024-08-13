@@ -299,4 +299,32 @@ and in last assignment.
 
 
 
+;; ************* 08 MINI CONTEXT API ***************
+
+;; We use mostly Redux liberiry for State Mangement  we use also zustand.
+
+
+
+// we make here seprate componenets and after that we wrap it in the UserContext and it will become provider.
+<UserContext>
+    <Login />
+    <Card>
+         <Dashboard />
+    </Card>
+</UserContext>
+
+
+
+;; // as we learn about Outlite jo value ho os ka header as it rakho footer as it rakho or jo b outlite ho os ko output krwa do.
+;; // children is not magical jysy hm apna div wagyra dyty hn wysy hi ha  children is generaic name. jo b ap ky pas aa rha os ko name dy do.
+
+const UserContextProvider = ({children}) => {
+    const  {user, setUser} = React.useState(null)
+
+ return(
+    <UserContext.Provider value={{user, setUser}}>
+    {children}
+    </UserContext.Provider>
+ )
+}
 
